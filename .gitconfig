@@ -1,0 +1,22 @@
+[user]
+	name = huaxin
+	email = huaxin@xiongmaitech.com
+[core]
+	autocrlf = false
+	editor = vim
+	filemode = false
+	excludesfile = /home/huaxin/.gitignore
+[push]
+	default = simple
+[credential]
+	helper = store
+[http]
+	sslVerify = false
+[alias]
+	st = status
+	cm = commit
+	co = checkout
+	ss = status -s
+	ls = log --stat
+	nc = commit -a --allow-empty-message -m \"\"
+	id = log -n 1 --pretty=format:\"%h\"
